@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TooltipComponent } from './common/ui/tooltip/tooltip.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TooltipComponent
   ],
   imports: [
     BrowserModule,
